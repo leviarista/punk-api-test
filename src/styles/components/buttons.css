@@ -1,0 +1,44 @@
+.button {
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0px 0px 4px 0 var(--black-p-25);
+    transition: 180ms box-shadow ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 8px 0px var(--black-p-50);
+}
+
+.search-button{
+    width: 80px;
+    height: 40px;
+    background-color: var(--background-sec-color);
+    color: var(--text-light-color);
+}
+
+.pagination-button{
+    width: 25px;
+    height: 25px;
+    border: solid 2px var(--background-main-color);
+    color: var(--text-highlight-color);
+}
+
+.pagination-button.active{
+    background-color: var(--background-main-color);
+    color: var(--text-light-color);
+}
+
+.close-button {
+    float: right;
+    font-size: 2rem;
+    margin-top: -20px;
+    margin-right: -20px;
+    cursor: pointer;
+}
