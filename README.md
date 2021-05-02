@@ -29,4 +29,4 @@ This a project for a test using the [Punk API](https://punkapi.com/).
 
 * App is ready!
 
-Go to  [Crete React App](https://create-react-app.dev/docs/getting-started/) for more information.
+Go to  [Create React App](https://create-react-app.dev/docs/getting-started/) for more information.

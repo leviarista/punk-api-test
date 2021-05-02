@@ -101,12 +101,12 @@ const Home = () => {
         if (value !== '') {
             let newData = [...data];
             newData = filterData(newData, value);
+            newData = orderData(newData, filter);
             setFilteredData(newData);
             setTotalItems(newData.length);
         } else {
             setTotalItems(325);
         }
-        handleOrderData(orderingField)
     }
 
     const filterData = (data, keyword) => {
