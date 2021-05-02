@@ -8,6 +8,9 @@
     max-height: calc(100vh - 262px - 50px - 70px);
     overflow: auto;
     margin: 0 auto;
+    padding: 0 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0 var(--lines-color);
 }
 
 .items-list-table-container::-webkit-scrollbar {
@@ -33,6 +36,14 @@
     border-bottom: solid var(--lines-dark-color) 2px;
 }
 
+.items-list-table th:hover {
+    cursor: pointer;
+}
+
+.items-list-table th img{
+    margin: 0 0 2px 5px;
+}
+
 .items-list-table td {
     padding: 10px;
     border-bottom: solid var(--lines-color) 2px;
@@ -52,6 +63,17 @@
 }
 
 .pagination {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination>div:first-child {
+    margin-left: 20px;
+    color: var(--lines-dark-color);
+}
+
+.pagination .pages{
     display: flex;
     justify-content: flex-end;
     gap: 10px;
